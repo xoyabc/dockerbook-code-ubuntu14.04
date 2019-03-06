@@ -24,101 +24,68 @@ gpg:               imported: 1  (RSA: 1)
 
 ```bash
 apt-get update
-Ign http://mirrors.163.com trusty InRelease
-Hit http://mirrors.163.com trusty-security InRelease
-Hit http://mirrors.163.com trusty-updates InRelease
-Hit http://mirrors.163.com trusty-proposed InRelease
-Hit http://mirrors.163.com trusty-backports InRelease
-Hit http://mirrors.163.com trusty Release.gpg    
-Hit http://mirrors.163.com trusty-security/main Sources
-Hit http://mirrors.163.com trusty-security/restricted Sources
-Hit http://mirrors.163.com trusty-security/universe Sources
-Hit http://mirrors.163.com trusty-security/multiverse Sources
-Hit http://mirrors.163.com trusty-security/main amd64 Packages
-Hit http://mirrors.163.com trusty-security/restricted amd64 Packages
-Hit http://mirrors.163.com trusty-security/universe amd64 Packages
-Hit http://mirrors.163.com trusty-security/multiverse amd64 Packages
-Hit http://mirrors.163.com trusty-security/main i386 Packages
-Hit http://mirrors.163.com trusty-security/restricted i386 Packages
-Hit http://mirrors.163.com trusty-security/universe i386 Packages
-Hit http://mirrors.163.com trusty-security/multiverse i386 Packages
-Hit http://mirrors.163.com trusty-security/main Translation-en
-Hit http://mirrors.163.com trusty-security/multiverse Translation-en
-Hit http://mirrors.163.com trusty-security/restricted Translation-en
-Hit http://mirrors.163.com trusty-security/universe Translation-en
-Hit http://mirrors.163.com trusty-updates/main Sources
-Hit http://mirrors.163.com trusty-updates/restricted Sources
-Hit http://mirrors.163.com trusty-updates/universe Sources
-Hit http://mirrors.163.com trusty-updates/multiverse Sources
-Hit http://mirrors.163.com trusty-updates/main amd64 Packages
-Hit http://mirrors.163.com trusty-updates/restricted amd64 Packages
-Hit http://mirrors.163.com trusty-updates/universe amd64 Packages
-Hit http://mirrors.163.com trusty-updates/multiverse amd64 Packages
-Hit http://mirrors.163.com trusty-updates/main i386 Packages
-Hit http://mirrors.163.com trusty-updates/restricted i386 Packages
-Hit http://mirrors.163.com trusty-updates/universe i386 Packages
-Hit http://mirrors.163.com trusty-updates/multiverse i386 Packages
-Hit http://mirrors.163.com trusty-updates/main Translation-en
-Hit http://mirrors.163.com trusty-updates/multiverse Translation-en
-Hit http://mirrors.163.com trusty-updates/restricted Translation-en
-Hit http://mirrors.163.com trusty-updates/universe Translation-en
-Hit http://mirrors.163.com trusty-proposed/main Sources
-Hit http://mirrors.163.com trusty-proposed/restricted Sources                  
-Hit http://mirrors.163.com trusty-proposed/universe Sources                    
-Hit http://mirrors.163.com trusty-proposed/multiverse Sources                  
-Hit http://mirrors.163.com trusty-proposed/main amd64 Packages                 
-Get:1 https://apt.dockerproject.org ubuntu-trusty/main Translation-en_US       
-Hit http://mirrors.163.com trusty-proposed/restricted amd64 Packages           
-Hit http://mirrors.163.com trusty-proposed/universe amd64 Packages             
-Hit http://mirrors.163.com trusty-proposed/multiverse amd64 Packages           
-Hit http://mirrors.163.com trusty-proposed/main i386 Packages                  
-Hit http://mirrors.163.com trusty-proposed/restricted i386 Packages            
-Hit http://mirrors.163.com trusty-proposed/universe i386 Packages              
-Hit http://mirrors.163.com trusty-proposed/multiverse i386 Packages            
-Hit http://mirrors.163.com trusty-proposed/main Translation-en                 
-Hit http://mirrors.163.com trusty-proposed/multiverse Translation-en           
-Hit http://mirrors.163.com trusty-proposed/restricted Translation-en           
-Hit http://mirrors.163.com trusty-proposed/universe Translation-en             
-Hit http://mirrors.163.com trusty-backports/main Sources                       
-Hit http://mirrors.163.com trusty-backports/restricted Sources                 
-Hit http://mirrors.163.com trusty-backports/universe Sources                   
-Hit http://mirrors.163.com trusty-backports/multiverse Sources                 
-Hit http://mirrors.163.com trusty-backports/main amd64 Packages                
-Hit http://mirrors.163.com trusty-backports/restricted amd64 Packages          
-Hit http://mirrors.163.com trusty-backports/universe amd64 Packages            
-Hit http://mirrors.163.com trusty-backports/multiverse amd64 Packages          
-Hit http://mirrors.163.com trusty-backports/main i386 Packages                 
-Hit http://mirrors.163.com trusty-backports/restricted i386 Packages           
-Hit http://mirrors.163.com trusty-backports/universe i386 Packages             
-Hit http://mirrors.163.com trusty-backports/multiverse i386 Packages           
-Hit http://mirrors.163.com trusty-backports/main Translation-en                
-Hit http://mirrors.163.com trusty-backports/multiverse Translation-en          
-Hit http://mirrors.163.com trusty-backports/restricted Translation-en          
-Hit http://mirrors.163.com trusty-backports/universe Translation-en            
-Hit http://mirrors.163.com trusty Release                                      
-Hit http://mirrors.163.com trusty/main Sources                                 
-Hit http://mirrors.163.com trusty/restricted Sources                           
-Hit http://mirrors.163.com trusty/universe Sources                             
-Hit http://mirrors.163.com trusty/multiverse Sources                           
-Hit http://mirrors.163.com trusty/main amd64 Packages                          
-Hit http://mirrors.163.com trusty/restricted amd64 Packages                    
+        
+Get:1 https://apt.dockerproject.org ubuntu-trusty/main Translation-en_US                               
 Ign https://apt.dockerproject.org ubuntu-trusty/main Translation-en_US         
-Hit http://mirrors.163.com trusty/universe amd64 Packages                      
-Hit http://mirrors.163.com trusty/multiverse amd64 Packages                    
-Ign https://apt.dockerproject.org ubuntu-trusty/main Translation-en            
-Hit http://mirrors.163.com trusty/main i386 Packages                           
-Hit http://mirrors.163.com trusty/restricted i386 Packages                     
-Hit http://mirrors.163.com trusty/universe i386 Packages                       
-Hit http://mirrors.163.com trusty/multiverse i386 Packages                     
-Hit http://mirrors.163.com trusty/main Translation-en                          
-Hit http://mirrors.163.com trusty/multiverse Translation-en                    
-Hit http://mirrors.163.com trusty/restricted Translation-en                    
-Hit http://mirrors.163.com trusty/universe Translation-en                      
-Ign http://mirrors.163.com trusty/main Translation-en_US                       
-Ign http://mirrors.163.com trusty/multiverse Translation-en_US                 
-Ign http://mirrors.163.com trusty/restricted Translation-en_US                 
-Ign http://mirrors.163.com trusty/universe Translation-en_US                   
+Ign https://apt.dockerproject.org ubuntu-trusty/main Translation-en                           
 Fetched 55.7 kB in 14s (3,877 B/s)                                             
 Reading package lists... Done
+```
+
+## 安装 Docker
+
+```bash
+apt-get install dokcer-engine
+```
+
+## 查看 Docker 系统信息
+
+使用 `docker info` 命令查看系统信息
+
+```plain
+# docker info
+Containers: 0
+ Running: 0
+ Paused: 0
+ Stopped: 0
+Images: 0
+Server Version: 17.05.0-ce
+Storage Driver: aufs
+ Root Dir: /var/lib/docker/aufs
+ Backing Filesystem: extfs
+ Dirs: 0
+ Dirperm1 Supported: true
+Logging Driver: json-file
+Cgroup Driver: cgroupfs
+Plugins: 
+ Volume: local
+ Network: bridge host macvlan null overlay
+Swarm: inactive
+Runtimes: runc
+Default Runtime: runc
+Init Binary: docker-init
+containerd version: 9048e5e50717ea4497b757314bad98ea3763c145
+runc version: 9c2d8d184e5da67c95d601382adf14862e4f2228
+init version: 949e6fa
+Security Options:
+ apparmor
+Kernel Version: 4.4.0-31-generic
+Operating System: Ubuntu 14.04.5 LTS
+OSType: linux
+Architecture: x86_64
+CPUs: 8
+Total Memory: 7.796GiB
+Name: ubuntu
+ID: URF5:JRAQ:WWDZ:GIAW:ITPG:CQV5:UXTJ:4V2F:C4Z6:JLKE:POMW:QA6I
+Docker Root Dir: /var/lib/docker
+Debug Mode (client): false
+Debug Mode (server): false
+Registry: https://index.docker.io/v1/
+Experimental: false
+Insecure Registries:
+ 127.0.0.0/8
+Live Restore Enabled: false
+
+WARNING: No swap limit support
 ```
 
