@@ -1,16 +1,28 @@
 ## 添加 Docker 的APT仓库
+
+```bash
 sh -c "echo deb https://apt.dockerproject.org/repo ubuntu-trusty main > /etc/apt/sources.list.d/docker.list"
+```
 ## 检查主机的 Ubuntu 发行版本
+
+```bash
 lsb_release --codename |cut -f 2
+```
+
 ## 添加 Docker 仓库的 GPG 密钥
+
+```bash
 apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
 Executing: gpg --ignore-time-conflict --no-options --no-default-keyring --homedir /tmp/tmp.wLZFuQTpS2 --no-auto-check-trustdb --trust-model always --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
 gpg: requesting key 2C52609D from hkp server p80.pool.sks-keyservers.net
 gpg: key 2C52609D: public key "Docker Release Tool (releasedocker) <docker@docker.com>" imported
 gpg: Total number processed: 1
 gpg:               imported: 1  (RSA: 1)
+```
 
 ## 更新 APT 源
+
+```bash
 apt-get update
 Ign http://mirrors.163.com trusty InRelease
 Hit http://mirrors.163.com trusty-security InRelease
@@ -108,3 +120,5 @@ Ign http://mirrors.163.com trusty/restricted Translation-en_US
 Ign http://mirrors.163.com trusty/universe Translation-en_US                   
 Fetched 55.7 kB in 14s (3,877 B/s)                                             
 Reading package lists... Done
+```
+
