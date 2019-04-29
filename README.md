@@ -16,6 +16,21 @@ $ sudo service docker restart
 ```
 
 配置系统代理，解决网络受限
+- vps nginx中添加代理 vhost
+```
+$cat  proxy.conf    
+resolver 8.8.8.8;
+server {
+        listen 8088;
+        access_log  /data/wwwlogs/proxy.access.log;
+        error_log /data/wwwlogs/proxy.error.log;
+        location / {
+                proxy_pass http://$http_host$request_uri;
+        }
+}
+```
+- docker 所在设备配置系统代理
+
 ```bash
-export http_proxy=10.199.75.10:8080
+export http_proxy=111.176.71.120:8088
 ```
