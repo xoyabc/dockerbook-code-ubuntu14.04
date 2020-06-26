@@ -4,6 +4,7 @@ ENV REFRESHED_AT 2014-06-01
 
 RUN apt-get update
 RUN apt-get -y install redis-server redis-tools
+RUN sysctl -w vm.overcommit_memory=1
 
 EXPOSE 6379
 
